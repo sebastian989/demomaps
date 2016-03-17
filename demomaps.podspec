@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name                  = 'demomaps'
-    s.version               = '0.0.3'
+    s.version               = '0.0.4'
 
     s.homepage              = "https://github.com/sebastian989/demomaps"
     s.summary               = 'git@github.com:sebastian989/demomaps.git'
@@ -11,8 +11,9 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '7.0'
 
     s.source_files          = 'demomaps/*.{h,m}'
+    s.resources             = ["demomaps/MapViewViewController.xib"]
     s.module_name           = 'demomaps'
-    s.source                = { :git => "https://github.com/sebastian989/demomaps.git", :tag => "0.0.3" }
+    s.source                = { :git => "https://github.com/sebastian989/demomaps.git", :tag => "0.0.4" }
     s.requires_arc          = true
     s.libraries             = "c++", "icucore", "z" # required for GoogleMaps.framework
     s.frameworks            = "AVFoundation", "CoreData", "CoreLocation", "CoreText", "Foundation", "GLKit", "ImageIO", "OpenGLES", "QuartzCore", "SystemConfiguration", "GoogleMaps"
