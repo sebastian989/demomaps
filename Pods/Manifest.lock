@@ -1,0 +1,14 @@
+PODS:
+  - Google-Maps-iOS-SDK (1.9.2)
+
+DEPENDENCIES:
+  - Google-Maps-iOS-SDK (from `https://raw.githubusercontent.com/Reflejo/GoogleMapsPodspec/master/Google-Maps-iOS-SDK.podspec.json`)
+
+EXTERNAL SOURCES:
+  Google-Maps-iOS-SDK:
+    :podspec: https://raw.githubusercontent.com/Reflejo/GoogleMapsPodspec/master/Google-Maps-iOS-SDK.podspec.json
+
+SPEC CHECKSUMS:
+  Google-Maps-iOS-SDK: cd766778744e33806fd11cd6a730d5706d20e325
+
+COCOAPODS: 0.39.0
